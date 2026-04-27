@@ -910,3 +910,41 @@ a {
 
 }
 
+/* FIX BASE PARA QUE FUNCIONE SIN SQUARESPACE */
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: white;
+}
+
+/* HERO con fondo */
+.hero-container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url("../images/banner.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+  padding: 20px;
+}
+
+/* SECCIONES */
+section {
+  padding: 80px 20px;
+}
+
+/* MENU base */
+.fake-menu-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
