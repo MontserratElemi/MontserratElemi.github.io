@@ -51,7 +51,25 @@ html {
 }
 
 
-/* jerarquía tipográfica */
+/* jerarquía tipográfica */    
+
+.page-section:first-of-type {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+              rgba(0,0,0,0.4),
+              rgba(0,0,0,0.4)
+            ),
+            url("../images/banner.jpg");
+
+  background-size: cover;
+  background-position: center;
+}     
+
 /* primer titulo principal en blanco */
 
 .page-section:first-of-type h1 {
