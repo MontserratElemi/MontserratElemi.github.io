@@ -1,14 +1,26 @@
-.hero-container {
-  background: red !important;
-}
 
-
-body {
-  background: red !important;
-}
 /* ========================================= */
 /* GLOBAL BASE */
 /* ========================================= */
+.hero-container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+              rgba(0,0,0,0.4),
+              rgba(0,0,0,0.4)
+            ),
+            url("../images/banner.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+}
 
 *,
 *::before,
